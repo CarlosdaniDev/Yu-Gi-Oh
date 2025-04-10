@@ -4,10 +4,14 @@ body {
 
 header {
     background-image: url(imagens/yugioh-wallpaper-licenciado.jpg);
-    height: 600px;
+    min-height: 100vh;
+    flex-wrap: wrap;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 1px;
+    padding:  30px;
+    background-position: center center;
+    flex-direction: column;
+box-sizing: border-box;
 }
 
 h1 {
@@ -35,6 +39,11 @@ button {
     color: white;
     cursor: pointer;
 }
+button:hover {
+    background-color: gold;
+    color: black;
+    transition: 0.3s;
+}
 
 main {
     background-color: black;
@@ -51,6 +60,7 @@ h2 {
 
 img {
     max-width: 100px;
+   
     border-radius: 5px;
     justify-content: center;
     border: 1px solid rgba(0, 105, 242, 0.608);
@@ -73,8 +83,8 @@ img {
     border-radius: 5px;
     text-align: center;
 }
-:hover.cyber ,
-:hover.slifer, :hover.neos {
+.cyber:hover ,
+.slifer:hover, .neos:hover {
    background-color: rgb(40, 39, 43);
    transition-duration: 0.3s;
     color: rgb(255, 255, 255);
@@ -114,8 +124,8 @@ section {
 
 }
 
-:hover.arranha ,
-:hover.sakuretsu, :hover.tyranno, :hover.pote {
+.arranha:hover ,
+.sakuretsu:hover, .tyranno:hover,.pote:hover {
    background-color: rgb(40, 39, 43);
    transition-duration: 0.3s;
     color: rgb(255, 255, 255);
