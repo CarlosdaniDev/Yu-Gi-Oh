@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(imagens/yugioh-wallpaper-licenciado.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px;
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 30px;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border: 2px solid gold;
+    border-radius: 15px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    background-color: black;
+
+}
+
+h2 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 1px 1px 2px rgba(255, 217, 0, 0.634);
+}
+
+img {
+    max-width: 100px;
+    border-radius: 5px;
+    justify-content: center;
+    border: 1px solid rgba(0, 105, 242, 0.608);
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    color: white;
+}
+
+.cyber,
+.slifer,
+.neos {
+
+    border: 2px solid rgba(255, 217, 0, 0.249);
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+:hover.cyber ,
+:hover.slifer, :hover.neos {
+   background-color: rgb(40, 39, 43);
+   transition-duration: 0.3s;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+   
+}
+
+
+p {
+    text-align: center;
+
+}
+
+section {
+    background-color: black;
+    padding-top: 30px;
+}
+
+.cartas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.arranha,
+.sakuretsu,
+.tyranno,
+.pote {
+    border: 2px solid rgba(255, 217, 0, 0.249);
+    padding: 25px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+
+}
+
+:hover.arranha ,
+:hover.sakuretsu, :hover.tyranno, :hover.pote {
+   background-color: rgb(40, 39, 43);
+   transition-duration: 0.3s;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+   
+}
+
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 38px;
+    background-color: rgba(105, 105, 105, 0.492);
+}
+
+#rodape {
+    
+    padding: 5px;
+    align-items: center;
+    border: none;
+    width: 20px;
+    position: relative;
+    top: 7px;
+}
+h3 {
+    position: relative;
+    bottom: 8px;
+}
